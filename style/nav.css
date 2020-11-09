@@ -1,0 +1,6 @@
+.control {
+	background-color: red;
+	max-width: 30px;
+	position: absolute;
+	right: 10px;
+}

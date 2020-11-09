@@ -1,0 +1,78 @@
+body {
+	font-family: "Jost", cursive;
+	font-size: 1em;
+}
+.stationary {
+	position: absolute;
+	z-index: 10;
+	top: 20px;
+	left: 20px;
+	min-width: 300px;
+	width: 35vw;
+	max-width: 800px;
+	height: 90vh;
+	z-index: 20;
+	background-color: floralwhite;
+	cursor: default;
+	box-shadow: 5px 10px 20px 8px rgba(1, 25, 16, 0.3);
+	cursor: text;
+	user-select: text;
+	border-radius: 10px;
+	overflow-y: scroll;
+}
+
+.content {
+	margin: 30px 30px;
+	text-align: left;
+	height: 90vh;
+}
+h1,
+a {
+	text-align: center;
+	text-decoration: none;
+}
+button {
+	width: 100px;
+	height: 50px;
+	padding: 5px;
+	margin: 0 auto;
+	display: block;
+
+	border-radius: 5px;
+	font-size: 16px;
+	background-color: floralwhite;
+	border-color: darkgreen;
+	border-width: 3px;
+	border-style: solid;
+	color: darkgreen;
+}
+button:hover {
+	background-color: darkgreen;
+	color: floralwhite;
+}
+h3 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	display: inline-block;
+	width: 40%;
+	font-size: 16px;
+}
+
+p {
+	margin-top: 0px;
+	display: inline-block;
+	font-size: 16px;
+	/*	text-indent: 10px;
+*/
+}
+.row p {
+	margin-left: 5px;
+}
+.author {
+	width: 120px;
+	margin-left: 70%;
+	margin-top: 0px;
+}
+.quote {
+	margin-bottom: 3px;
+}
